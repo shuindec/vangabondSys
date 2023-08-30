@@ -42,7 +42,7 @@ region_picker_wrap = html.Div([
                                 ),
                     html.Br()], style={'display': 'flex', 'flex-direction': 'row'})
 
-vis = dcc.Graph(style= {'backgroundColor': colors['background']}, id = 'sale-graph')
+vis = dcc.Graph( style= {'backgroundColor': colors['background']}, id = 'sale-graph')
 
 app.layout = html.Div([
                 header,
